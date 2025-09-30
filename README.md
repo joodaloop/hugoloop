@@ -15,6 +15,8 @@ To get started, [install Hugo](https://gohugo.io/installation/) and clone this r
 - RSS feed with full post content.
 - Shortcodes are avoided because they tie your Markdown to Hugo-specific syntax, it is recommended to just write HTML as much as possible. But Hugo has [built-in "embedded" shortcodes](https://gohugo.io/content-management/shortcodes/#embedded) for the most common needs. Privacy preservation for those is turned on in `hugo.toml`.
 - Pre-filled `netlify.toml` file to ease deployment to Netlify (great host, generous free tier).
+- Hugo-specific .gitignore file
+- Custom fonts used, to demonstrate how they ought to be added
 
 ## Learn more
 This starter tries *really* hard to be as minimal as possible. But Hugo has a ton of features, some of which you will eventually want to reach for. The following are probably the most important:

@@ -47,15 +47,25 @@ select {
   font: inherit;
 }
 
+p,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-blockquote {
+blockquote,
+pre {
   overflow-wrap: break-word;
   margin: 1em 0em var(--spacing) 0em;
+}
+
+p:last-child,
+blockquote:last-child,
+ul:last-child,
+ol:last-child,
+pre:last-child {
+  margin-bottom: 0px;
 }
 
 h1 {
@@ -72,6 +82,7 @@ h2 {
 
 h3 {
   font-size: 1.625em;
+  line-height: 1.2em;
   font-family: var(--font-sans);
 }
 
@@ -81,15 +92,6 @@ h4 {
 
 h5 {
   font-size: 0.8125em;
-}
-
-p {
-  text-wrap: pretty;
-  margin: 0em 0em var(--spacing) 0em;
-}
-
-p:last-child {
-  margin-bottom: 0px;
 }
 
 a {
