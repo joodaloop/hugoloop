@@ -7,11 +7,16 @@ noBuildLock: true # disable creation of the .hugo_build.lock file.
 params:
   author:
     email: judah@example.org
+    twitter: "@joodalooped"
     name: Judah
 
 permalinks:
   # i prefer to have my posts be located at /post-name instead of /writing/post-name
   writing: "/:contentbasename/"
+
+# prevents generation of a sitemap, to maintain plausible privacy for pages not linked to from the site
+disableKinds:
+  - sitemap
 
 privacy:
   googleAnalytics:
@@ -48,10 +53,6 @@ frontmatter:
     - pubdate
     - published
     - date
-
-# prevents generation of a sitemap, to maintain plausible privacy for pages not linked to from the site
-disableKinds:
-  - sitemap
 
 services:
   rss:
