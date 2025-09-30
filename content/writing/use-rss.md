@@ -1,6 +1,7 @@
 ---
 title: Please use RSS feeds
 description: it's good for you, and your users
+date: 2025-09-30
 ---
 
 This site has an [RSS feed](/index.xml) available. If you don't know what RSS is, read this:

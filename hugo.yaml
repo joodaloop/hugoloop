@@ -1,14 +1,17 @@
-baseURL: "https://example.org/"
+baseURL: "https://hugo.joodaloop.com/"
 languageCode: "en-us"
 title: "Hugoloop"
-copyright: © 2025 John Doe.
-enableRobotsTXT: true
+description: "Joodaloop's recommended starter for a new Hugo site"
+
 noBuildLock: true # disable creation of the .hugo_build.lock file.
 params:
   author:
-    email: jdoe@example.org
-    name: John Doe
-  og_image: "/og_image.jpg"
+    email: judah@example.org
+    name: Judah
+
+permalinks:
+  # i prefer to have my posts be located at /post-name instead of /writing/post-name
+  writing: "/:contentbasename/"
 
 privacy:
   googleAnalytics:

@@ -17,7 +17,8 @@ svg {
   max-width: 100%;
 }
 
-body {
+body,
+main {
   min-height: 100dvh;
 }
 

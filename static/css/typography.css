@@ -1,6 +1,6 @@
 :root {
   --base-font-size: 16px;
-  --v-space: calc(1.1 * var(--base-font-size));
+  --spacing: calc(1.1 * var(--base-font-size));
   --font-display: Railroad, system-ui;
   --font-sans: Heebo, ui-sans-serif, system-ui;
   --font-serif: Bitter, ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
@@ -55,7 +55,7 @@ h5,
 h6,
 blockquote {
   overflow-wrap: break-word;
-  margin: 1em 0em var(--v-space) 0em;
+  margin: 1em 0em var(--spacing) 0em;
 }
 
 h1 {
@@ -85,7 +85,7 @@ h5 {
 
 p {
   text-wrap: pretty;
-  margin: 0em 0em var(--v-space) 0em;
+  margin: 0em 0em var(--spacing) 0em;
 }
 
 p:last-child {
@@ -101,7 +101,7 @@ a {
 ol,
 ul {
   padding-left: 1.2em;
-  margin-bottom: var(--v-space);
+  margin-bottom: var(--spacing);
 }
 
 ol li,
@@ -110,7 +110,7 @@ ul li {
 }
 
 blockquote {
-  padding: var(--v-space);
+  padding: var(--spacing);
   background-color: #eeeeee;
   border-radius: 8px;
 }

@@ -1,6 +1,7 @@
 ---
 title: Why Hugo?
 description: it's a good SSG, sir
+date: 2025-09-28
 ---
 
 1. It ships as a binary. Install once and use for multiple sites. Be free of node_modules.

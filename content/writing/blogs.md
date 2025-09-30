@@ -1,6 +1,7 @@
 ---
 title: Blogs I recommend
 description: a reading list
+date: 2025-09-29
 ---
 
 - [Overthinking Everything](https://drmaciver.substack.com/) by David R. MacIver
