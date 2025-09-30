@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+main {
+  max-width: 42em;
+  width: 100%;
+  margin: auto;
+  padding: 2em 1.4em;
+}
+
+nav {
+  margin-bottom: 4em;
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: var(--font-sans);
+}

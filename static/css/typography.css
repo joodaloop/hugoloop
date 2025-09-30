@@ -1,0 +1,120 @@
+:root {
+  --base-font-size: 16px;
+  --v-space: calc(1.1 * var(--base-font-size));
+  --font-display: Railroad, system-ui;
+  --font-sans: Heebo, ui-sans-serif, system-ui;
+  --font-serif: Bitter, ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
+}
+
+@font-face {
+  font-family: "Heebo";
+  src: url("/fonts/Heebo.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Bitter";
+  src: url("/fonts/Bitter.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Bitter";
+  src: url("/fonts/Bitter-Italic.woff2") format("woff2");
+  font-style: italic;
+}
+
+body {
+  font-size: var(--base-font-size);
+  font-family: var(--font-serif);
+  line-height: 1.6em;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--theme);
+  color: var(--theme);
+}
+
+article a {
+  text-decoration: underline;
+  color: var(--color);
+  text-decoration-color: var(--theme);
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote {
+  overflow-wrap: break-word;
+  margin: 1em 0em var(--v-space) 0em;
+}
+
+h1 {
+  font-size: 2.625em;
+  line-height: 1.2em;
+  font-family: var(--font-sans);
+  color: var(--theme);
+}
+
+h2 {
+  font-size: 2.0625em;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 1.625em;
+  font-family: var(--font-sans);
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 0.8125em;
+}
+
+p {
+  text-wrap: pretty;
+  margin: 0em 0em var(--v-space) 0em;
+}
+
+p:last-child {
+  margin-bottom: 0px;
+}
+
+a {
+  color: var(--theme);
+  text-decoration: none;
+  text-underline-offset: 3px;
+}
+
+ol,
+ul {
+  padding-left: 1.2em;
+  margin-bottom: var(--v-space);
+}
+
+ol li,
+ul li {
+  margin: 0.5em 0em;
+}
+
+blockquote {
+  padding: var(--v-space);
+  background-color: #eeeeee;
+  border-radius: 8px;
+}
+
+cite {
+  display: block;
+}

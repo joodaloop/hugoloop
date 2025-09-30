@@ -1,0 +1,38 @@
+:root {
+  --theme: #e85a48;
+  --bg: #fbfaf8;
+  --color: #444444;
+}
+
+body {
+  background: var(--bg);
+  color: var(--color);
+}
+
+.page-list {
+  display: grid;
+  gap: 0.5em;
+  border-top: dotted 1px var(--theme);
+  padding-top: 0.5em;
+}
+
+.page-list > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1em;
+  border-bottom: dotted 1px var(--theme);
+  padding-bottom: 0.5em;
+}
+
+.page-list a {
+  flex-shrink: 0;
+  font-family: var(--font-sans);
+}
+
+.page-list aside {
+  font-style: italic;
+  font-size: 0.95em;
+  text-align: right;
+  max-width: 50%;
+}

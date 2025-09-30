@@ -1,0 +1,82 @@
+baseURL: "https://example.org/"
+languageCode: "en-us"
+title: "Hugoloop"
+copyright: © 2025 John Doe.
+enableRobotsTXT: true
+noBuildLock: true # disable creation of the .hugo_build.lock file.
+params:
+  author:
+    email: jdoe@example.org
+    name: John Doe
+  og_image: "/og_image.jpg"
+
+privacy:
+  googleAnalytics:
+    respectDoNotTrack: true
+  instagram:
+    disable: false
+    simple: false
+  vimeo:
+    enableDNT: true
+    simple: false
+  x:
+    enableDNT: true
+    simple: false
+  youTube:
+    privacyEnhanced: true
+
+frontmatter:
+  # note: if you use a date that's in the future, Hugo will not build that page until that date has arrived
+  date:
+    - date
+    - published
+    - publishdate
+    - pubdate
+  lastmod:
+    - :git
+    - lastmod
+    - modified
+    - date
+    - publishdate
+    - pubdate
+    - published
+  publishDate:
+    - publishdate
+    - pubdate
+    - published
+    - date
+
+# prevents generation of a sitemap, to maintain plausible privacy for pages not linked to from the site
+disableKinds:
+  - sitemap
+
+services:
+  rss:
+    # Set limit to -1 to generate an unlimited number of items per feed.
+    limit: 100
+
+markup:
+  highlight:
+    # See options here: https://gohugo.io/quick-reference/syntax-highlighting-styles/
+    style: monokai
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 2
+  goldmark:
+    extensions:
+      extras:
+        insert:
+          enable: true
+        mark:
+          enable: true
+        superscript:
+          enable: true
+    renderer:
+      # Allows you to write HTML in your markdon files (https://gohugo.io/configuration/markup/#rendererunsafe)
+      unsafe: true
+
+minify:
+  # preserves indentation (like in code blocks) in RSS posts
+  disableXML: true
+  minifyOutput: true

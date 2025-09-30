@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{.Title}}</title>
+    <meta
+      name="description"
+      content="{{ if .Description }}{{ .Description }}
+    {{ else }} {{ .Site.Params.description }}{{ end }}"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/card.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/card.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/card.png" />
+
+    <meta property="og:url" content="{{ .Site.BaseURL }}" />
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta
+      property="og:description"
+      content="{{ if .Description }}{{ .Description }}
+    {{ else }} {{ .Site.Params.description }}{{ end }}"
+    />
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@joodalooped" />
+    <meta name="twitter:title" content="{{ .Title }}" />
+    <meta
+      name="twitter:description"
+      content="{{ if .Description }}{{ .Description }}
+    {{ else }} {{ .Site.Params.description }}{{ end }}"
+    />
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.og_image }}" />
+
+    <!--If you want multiple RSS feeds for a site, check out https://gohugo.io/configuration/outputs/-->
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ .Site.Title }}." href="/index.xml" />
+
+    <link rel="stylesheet" type="text/css" href="/css/typography.css" />
+    <link rel="stylesheet" type="text/css" href="/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="/css/custom.css" />
+  </head>
+
+  <body>
+    <main>
+      <nav>
+        <a href="/"> Home </a>
+
+        <div style="display: flex; gap: 1.5em">
+          <a href="/writing"> Writing </a>
+          <a href="https://github.com/joodaloop/hugoloop"> Github </a>
+        </div>
+      </nav>
+
+      <div>{{ block "main" .}} {{ end }}</div>
+    </main>
+  </body>
+</html>
