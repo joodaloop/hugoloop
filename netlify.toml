@@ -1,0 +1,44 @@
+baseURL = "/"
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+      Access-Control-Allow-Origin = "*"
+
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.148.1"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Cache-Control = "public, immutable, max-age=900"
+
+[[headers]]
+  for = "/fonts/*"
+    [headers.values]
+    Cache-Control = "public, immutable, max-age=31536000"
+
+[[headers]]
+  for = "/js/*"
+    [headers.values]
+    Cache-Control = "public, immutable, max-age=31536000"
+
+[[headers]]
+  for = "/css/*"
+    [headers.values]
+    Cache-Control = "public, must-revalidate, max-age=10"
+    ETag = "unique_value"
+
+[[headers]]
+  for = "/media/*"
+    [headers.values]
+    Cache-Control = "public, immutable, max-age=31536000"
