@@ -9,10 +9,10 @@ To get started, [install Hugo](https://gohugo.io/installation/) and clone this r
 ## Features
 - Dynamic social media/preview cards
 - My recommended CSS file organization:
-  1.`layout.css` – Define styles for the entire site structure (columns, nav bar, CSS reset, etc).
+  1. `layout.css` – Define styles for the entire site structure (columns, nav bar, CSS reset, etc).
   2. `typography.css` – Consolidated styles for text content elements
   3. `custom.css` – For declaring CSS variables, and writing page-specific classes
-- RSS feed with full post content
+- RSS feed with full post content.
 - Shortcodes are avoided because they tie your Markdown to Hugo-specific syntax, it is recommended to just write HTML as much as possible. But Hugo has [built-in "embedded" shortcodes](https://gohugo.io/content-management/shortcodes/#embedded) for the most common needs. Privacy preservation for those is turned on in `hugo.toml`.
 - Pre-filled `netlify.toml` file to ease deployment to Netlify (great host, generous free tier).
 
@@ -23,6 +23,6 @@ This starter tries *really* hard to be as minimal as possible. But Hugo has a to
 - [Full-text search](https://gist.github.com/cmod/5410eae147e4318164258742dd053993)
 - [Sections](https://gohugo.io/content-management/sections/): Create multiple content sections and give them separate designs and RSS feeds. For example, the [riffs](https://joodaloop.com/riffs) section on my site.
 - [Markdown attributes](https://gohugo.io/content-management/markdown-attributes/): Easily add classes and other attributes to markdown elements.
-- [Image processing](https://gohugo.io/content-management/image-processing/) pipelines
+- [Image processing](https://gohugo.io/content-management/image-processing/) pipelines.
 - [Page bundles](https://gohugo.io/content-management/page-bundles/): A way to colocate images with the pages where they're used. I personally don't use this because I like my writing to be a flat list of Markdown files.
 - [Data sources](https://gohugo.io/content-management/data-sources/): To load content from local or remote sources (like headless CMSes).
