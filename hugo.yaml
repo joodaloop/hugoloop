@@ -1,7 +1,10 @@
-baseURL: "https://hugo.joodaloop.com/"
+baseURL: "https://ai.joodaloop.com/"
 languageCode: "en-us"
-title: "Hugoloop"
+title: "AI"
 description: "Joodaloop's recommended starter for a new Hugo site"
+
+server:
+  port: 8080
 
 noBuildLock: true # disable creation of the .hugo_build.lock file.
 params:

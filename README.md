@@ -1,30 +1,14 @@
+Some observations on AI that are still underrated, synthesis from several conversations:
 
-## Introduction
-This template is intended for the purpose of creating a *new* website, and as such, will be occassionally updated to work with the latest version of Hugo. The version used currently is Hugo v0.148.1.
+Anything that we are happy to delegate will get delegated. This will be different for different people.
+Delegation will not reduce our humanity
+There are unknown unknown outcomes of all our endeavours, this holds for using AI and also not using AI
+The only way to use it better is to use it. Not to talk about it, or think about it, but to use it. Sorry.
+A large part of the reluctance people have towards AI comes from the fear of the unknown, or the ick factor
+It’s also very likely that big parts of what makes up our identity will be mechanised in the near future. This is okay. This is also not the first time it’s happened.
+Think of the things you’d want to delegate to a capable PA, that doesn’t make you any less capable, AI is no different, though at scale.
+“Will this then take everything we hold meaningful” is an impossible question to answer. Just do what you like remains underrated.
+Don’t Panic.
+“The fact that we live at the bottom of a deep gravity well, on the surface of a gas covered planet going around a nuclear fireball 90 million miles away and think this to be normal is obviously some indication of how skewed our perspective tends to be.”
 
-This doesn't mean that it uses all of Hugo's features. In fact, the goal of this starter is to use as *few as possible* so that the amount of Hugo-specific detail you need to understand is kept to a minimum. Your experience should feel as close to "edit some HTML, write some Markdown" as possible.
-
-To get started, [install Hugo](https://gohugo.io/installation/) and clone this repository. Then `cd` into the repository and run `hugo serve --renderToMemory` to view the site.
-
-## Features
-- Dynamic social media/preview cards
-- My recommended CSS file organization:
-  1. `layout.css` – Define styles for the entire site structure (columns, nav bar, CSS reset, etc).
-  2. `typography.css` – Consolidated styles for text content elements
-  3. `custom.css` – For declaring CSS variables, and writing page-specific classes
-- RSS feed with full post content.
-- Shortcodes are avoided because they tie your Markdown to Hugo-specific syntax, it is recommended to just write HTML as much as possible. But Hugo has [built-in "embedded" shortcodes](https://gohugo.io/content-management/shortcodes/#embedded) for the most common needs. Privacy preservation for those is turned on in `hugo.toml`.
-- Pre-filled `netlify.toml` file to ease deployment to Netlify (great host, generous free tier).
-- Hugo-specific .gitignore file
-- Custom fonts used, to demonstrate how they ought to be added
-
-## Learn more
-This starter tries *really* hard to be as minimal as possible. But Hugo has a ton of features, some of which you will eventually want to reach for. The following are probably the most important:
-- [Render hooks](https://gohugo.io/content-management/markdown-attributes/): These allow you to control how markdown is converted to HTML, which enables things like [adding "external" classes](https://gohugo.io/render-hooks/links/) to links that point away from your site, or [rendering images within <figcaption> elements](https://gohugo.io/render-hooks/images/).
-- [Taxonomies](https://gohugo.io/content-management/taxonomies/): For organizing your content by tags and categories.
-- [Full-text search](https://gist.github.com/cmod/5410eae147e4318164258742dd053993)
-- [Sections](https://gohugo.io/content-management/sections/): Create multiple content sections and give them separate designs and RSS feeds. For example, the [riffs](https://joodaloop.com/riffs) section on my site.
-- [Markdown attributes](https://gohugo.io/content-management/markdown-attributes/): Easily add classes and other attributes to markdown elements.
-- [Image processing](https://gohugo.io/content-management/image-processing/) pipelines.
-- [Page bundles](https://gohugo.io/content-management/page-bundles/): A way to colocate images with the pages where they're used. I personally don't use this because I like my writing to be a flat list of Markdown files.
-- [Data sources](https://gohugo.io/content-management/data-sources/): To load content from local or remote sources (like headless CMSes).
+rohit (@krishnanrohit)

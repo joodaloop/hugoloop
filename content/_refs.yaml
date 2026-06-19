@@ -1,0 +1,34 @@
+career:
+  - title: Flood fill vs. the magic circle
+    url: https://www.robinsloan.com/winter-garden/magic-circle/
+  - title: Letter to a Young Person Worrying About AI
+    url: https://commoncog.com/letter-to-a-young-person-worrying-about-ai/
+  - title: How to Use AI Without Becoming Stupid
+    url: https://commoncog.com/how-to-use-ai-without-becoming-stupid/
+
+economics:
+  - title: Routers, Apps, AGI
+    url: https://www.thediff.co/archive/routers-apps-agi/
+  - title: "The Middle Game: Routers at the Edge"
+    url: https://www.thediff.co/archive/the-middle-game-routers-at-the-edge/
+  - title: Against The Coasean Singularity
+    url: https://hypersoren.xyz/posts/against-coasean-singularity/
+
+fiction:
+  - title: Starwink
+    url: https://alicorn.elcenia.com/stories/starwink.shtml
+
+expertise:
+  - title: The AI expertise conundrum
+    url: https://vaughntan.org/aiexpertconundrum
+  - title: How to Make Sense of AI
+    url: https://commoncog.com/how-to-make-sense-of-ai/
+
+anecdotes:
+  - title: It was the best of times, etc.
+    url: https://www.robinsloan.com/lab/worst-or-best/
+    quote: "This is useful: a sort of counter-mantra. The enthusiasts really do invoke “this is the worst AI will ever be” almost like a magic spell. Along the narrow technical dimension, the claim is certainly true … but the technical dimension is not the only one, nor even the most important. There are commercial and ecological dimensions, too, and we can look at every other digital system — literally every other digital system! — for clues about trajectories from worst to best, best to worst."
+
+  - title: How I don’t use LLMs
+    url: https://www.gleech.org/llms
+    quote: I have a powerful urge to John Henry my way through this age. Let the heavens fall, but find me at my desk. But I doubt I am that strong, and they will improve.
