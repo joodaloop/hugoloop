@@ -83,17 +83,17 @@ select {
 /*LAYOUT */
 
 main {
-  max-width: 40em;
+  max-width: 40rem;
   width: 100%;
   margin: auto;
-  padding: 2em 1.4em;
+  padding: 2rem 1.4rem;
 }
 
 nav {
-  margin-bottom: 4em;
+  margin-bottom: 4rem;
   display: flex;
   justify-content: space-between;
-  gap: 2em;
+  gap: 2rem;
 }
 
 nav a {
@@ -109,9 +109,9 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  gap: 1em;
+  gap: 1rem;
   border-bottom: dotted 1px var(--theme);
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
 .page-item a {
@@ -121,7 +121,7 @@ nav a {
 
 .page-item aside {
   font-style: italic;
-  font-size: 0.95em;
+  font-size: 0.95rem;
   text-align: right;
   max-width: 50%;
 }
@@ -146,27 +146,27 @@ pre:last-child {
 }
 
 h1 {
-  font-size: 2.625em;
+  font-size: 2.625rem;
   line-height: 1.2;
   font-family: var(--font-sans);
   color: var(--theme);
 }
 
 h2 {
-  font-size: 2.0625em;
+  font-size: 2.0625rem;
   line-height: 1.2;
 }
 
 h3 {
-  font-size: 1.625em;
+  font-size: 1.625rem;
   line-height: 1.2;
   font-family: var(--font-sans);
 }
 
 h4 {
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 
 h5 {
-  font-size: 0.8125em;
+  font-size: 0.8125rem;
 }
