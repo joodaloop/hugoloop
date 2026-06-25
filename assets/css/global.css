@@ -64,12 +64,12 @@ blockquote {
 a {
   color: var(--theme);
   text-decoration: none;
+  text-underline-offset: 2px;
 }
 
 a:hover {
   text-decoration: underline;
   text-decoration-color: var(--theme);
-  text-underline-offset: 2px;
 }
 
 input,
@@ -132,7 +132,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+blockquote {
   overflow-wrap: break-word;
   margin: 0 0 var(--spacing) 0;
 }

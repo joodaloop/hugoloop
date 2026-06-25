@@ -10,9 +10,21 @@
   margin-bottom: var(--spacing);
 }
 
-.prose ol li,
-.prose ul li {
-  margin: 0.5rem 0rem;
+.prose ul {
+  list-style: disc;
+}
+
+.prose ol {
+  list-style: decimal;
+}
+
+.prose li {
+  margin: 0.5rem 0;
+}
+
+.prose li > ul,
+.prose li > ol {
+  margin: 0.5rem 0;
 }
 
 .prose blockquote {
@@ -23,4 +35,10 @@
 
 .prose cite {
   display: block;
+}
+
+.prose code {
+  font-family: monospace, monospace;
+  background: #dddddd;
+  padding: 1px 3px;
 }
