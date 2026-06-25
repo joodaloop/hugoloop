@@ -5,9 +5,9 @@
 
 <br />
 
-<div class="page-list">
+<div>
   {{ range .RegularPages }}
-  <div>
+  <div class="page-item">
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     <aside>{{ .Description }}</aside>
   </div>

@@ -1,0 +1,26 @@
+.prose a {
+  text-decoration: underline;
+  text-decoration-color: var(--theme);
+  color: var(--color);
+}
+
+.prose ol,
+.prose ul {
+  padding-left: 1.2em;
+  margin-bottom: var(--spacing);
+}
+
+.prose ol li,
+.prose ul li {
+  margin: 0.5em 0em;
+}
+
+.prose blockquote {
+  padding: var(--spacing);
+  background-color: #eeeeee;
+  border-radius: 8px;
+}
+
+.prose cite {
+  display: block;
+}

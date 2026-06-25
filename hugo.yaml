@@ -1,10 +1,7 @@
-baseURL: "https://ai.joodaloop.com/"
+baseURL: "https://hugo.joodaloop.com/"
 languageCode: "en-us"
-title: "AI"
+title: "Hugoloop"
 description: "Joodaloop's recommended starter for a new Hugo site"
-
-server:
-  port: 8080
 
 noBuildLock: true # disable creation of the .hugo_build.lock file.
 params:
@@ -40,7 +37,6 @@ frontmatter:
   # note: if you use a date that's in the future, Hugo will not build that page until that date has arrived
   date:
     - date
-    - published
     - publishdate
     - pubdate
   lastmod:
@@ -50,11 +46,9 @@ frontmatter:
     - date
     - publishdate
     - pubdate
-    - published
   publishDate:
     - publishdate
     - pubdate
-    - published
     - date
 
 services:

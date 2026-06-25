@@ -35,8 +35,7 @@ baseURL = "/"
 [[headers]]
   for = "/css/*"
     [headers.values]
-    Cache-Control = "public, must-revalidate, max-age=10"
-    ETag = "unique_value"
+    Cache-Control = "public, immutable, max-age=31536000"
 
 [[headers]]
   for = "/media/*"

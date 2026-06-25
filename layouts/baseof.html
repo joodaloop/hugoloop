@@ -12,8 +12,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="/icon.png" />
+    <link rel="icon" href="/icon.png" type="image/png" />
 
     <meta property="og:url" content="{{ .Site.BaseURL }}" />
     <meta property="og:title" content="{{ .Title }}" />
@@ -36,9 +35,11 @@
 
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ .Site.Title }}." href="/index.xml" />
 
-    <link rel="stylesheet" type="text/css" href="/css/typography.css" />
-    <link rel="stylesheet" type="text/css" href="/css/layout.css" />
-    <link rel="stylesheet" type="text/css" href="/css/custom.css" />
+    {{ with resources.Get "css/global.css" | minify | fingerprint }}
+    <link rel="stylesheet" type="text/css" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />
+    {{ end }} {{ with resources.Get "css/prose.css" | minify | fingerprint }}
+    <link rel="stylesheet" type="text/css" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />
+    {{ end }}
   </head>
 
   <body>
